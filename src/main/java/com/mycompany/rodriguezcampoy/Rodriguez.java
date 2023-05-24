@@ -14,4 +14,10 @@ public class Rodriguez {
         numeroFinal = numero1 + numero2;
         System.out.println("El resultado de la suma es: " + numeroFinal);
     }
+    
+    public void multiplicaEnteros(Integer numero1, Integer numero2) {
+        Integer numeroFinal = 0;
+        numeroFinal = numero1 * numero2;
+        System.out.println("El resultado de la multiplicación es: " + numeroFinal);
+    }
 }

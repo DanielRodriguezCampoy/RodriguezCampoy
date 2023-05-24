@@ -12,6 +12,6 @@ public class Campoy {
     public void restaEnteros(Integer numero1, Integer numero2) {
         Integer numeroFinal = 0;
         numeroFinal = numero1 - numero2;
-        System.out.println("El resultado de la suma es: " + numeroFinal);
+        System.out.println("El resultado de la resta es: " + numeroFinal);
     }
 }
