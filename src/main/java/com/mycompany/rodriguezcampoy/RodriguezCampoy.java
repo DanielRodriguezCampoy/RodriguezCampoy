@@ -12,6 +12,9 @@ package com.mycompany.rodriguezcampoy;
 public class RodriguezCampoy {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Rodriguez rodriguez = new Rodriguez();
+        rodriguez.sumaEnteros(1, 4);
+        Campoy campoy = new Campoy();
+        campoy.restaEnteros(6, 2);
     }
 }
