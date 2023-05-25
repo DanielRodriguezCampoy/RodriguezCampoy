@@ -23,4 +23,9 @@ public class Rodriguez {
             System.out.println("El menor de los dos es: " + numero2);
         }
     }
+    
+    public void multiplicaEnteros(Integer numero1, Integer numero2){
+        Integer numeroFinal = numero1 * numero2;
+        System.out.println("El resultado de la multiplicación es: " + numeroFinal);
+    }
 }
