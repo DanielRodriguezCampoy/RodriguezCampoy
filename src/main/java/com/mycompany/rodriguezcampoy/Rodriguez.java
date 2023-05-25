@@ -14,4 +14,13 @@ public class Rodriguez {
         numeroFinal = numero1 + numero2;
         System.out.println("El resultado de la suma es: " + numeroFinal);
     }
+    
+    public void calculaMenor(Integer numero1, Integer numero2) {
+        Integer numeroFinal = 0;
+        if(numero1 < numero2) {
+            System.out.println("El menor de los dos es: " + numero1);
+        } else {
+            System.out.println("El menor de los dos es: " + numero2);
+        }
+    }
 }

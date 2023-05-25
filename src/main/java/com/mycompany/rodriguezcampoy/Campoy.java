@@ -14,4 +14,9 @@ public class Campoy {
         numeroFinal = numero1 - numero2;
         System.out.println("El resultado de la suma es: " + numeroFinal);
     }
+    
+    public void calculaModulo(Integer numero1, Integer numero2) {
+        Integer numeroFinal = numero1 % numero2;
+        System.out.println("El resultado es: " + numeroFinal);
+    }
 }
